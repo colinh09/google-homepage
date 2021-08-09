@@ -9,12 +9,6 @@
     transform: translate(-50%,-550%);
 }
 
-textarea{
-    border: none;
-    background-color: transparent;
-    resize: none;
-    outline: none;
-}
 input,
 button{
     border:0;
@@ -98,5 +92,30 @@ button{
     border-color: blue;
     transform: translate(10%,-350%);
 }
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 30vw;
+    top: 0;
+}
+
+li{
+    display: inline;
+    height: 1px;
+    width: 0px;
+    padding: 10px;
+}
+
 
 
