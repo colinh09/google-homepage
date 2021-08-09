@@ -57,16 +57,35 @@ button{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-120%,-700%);
+    font-size: 15px;
+    padding: 10px;
+    transform: translate(-120%,-350%);
     border: 50px transparent;
-    background: rgb(214, 213, 213);
+    background: rgb(236, 234, 234);
 }
 
 .button2{
     position: absolute;
     top: 50%;
+    font-size: 15px;
     left: 50%;
-    transform: translate(10%,-700%);
+    padding: 10px;
+    transform: translate(10%,-350%);
     border: 50px transparent;
-    background: rgb(214, 213, 213);
+    background: rgb(236, 234, 234);
+}
+
+.button:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button1:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button2:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
