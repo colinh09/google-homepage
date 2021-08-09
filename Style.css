@@ -1,8 +1,12 @@
 .search_wrapper{
-    width: 400px;
+    width: 500px;
     border: 1px solid gray;
     border-radius: 25px;
     padding: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-550%);
 }
 
 input,
@@ -11,6 +15,15 @@ button{
     background-color: transparent;
 }
 
+.logo
+{
+    width: 235px;
+    height: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-400%);
+}
 
 .fa fa-search{
     position: absolute;
@@ -24,7 +37,7 @@ button{
 
 .input{
     font-size: 17px;
-    width: 87%;
+    width: 90%;
     background-color: white;
 }
 
@@ -38,4 +51,22 @@ button{
     background-color: white;
     color: white;
     cursor: pointer;
+}
+
+.button1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-120%,-700%);
+    border: 50px transparent;
+    background: rgb(214, 213, 213);
+}
+
+.button2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(10%,-700%);
+    border: 50px transparent;
+    background: rgb(214, 213, 213);
 }
