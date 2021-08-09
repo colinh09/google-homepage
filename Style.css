@@ -93,29 +93,75 @@ button{
     transform: translate(10%,-350%);
 }
 
-.nav{
-    display: flex;
-    justify-content: space-evenly;
-}
-ul{
-    position: absolute;
+.navbar{
+    float: right;
+    position: relative;
     right: 0;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 30vw;
-    top: 0;
 }
 
 li{
-    display: inline;
-    height: 1px;
+    height: 0px;
     width: 0px;
-    padding: 10px;
+    padding-right: 100px;
+    padding-top: 20px;
 }
 
+.Apps{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 90px;
+}
 
+.Account{
+    position: relative;
+    padding: 0;
+    border-radius: 50%;
+    left: 50px;
+}
 
+.img{
+    position: relative;
+    top: 5px;
+    left: 200px;
+    font-size: 15px;
+}
+
+.gmail{
+    position: relative;
+    top: 5px;
+    left: 20px;
+    font-size: 15px;
+}
+
+.store{
+    float: left;
+    position: relative;
+    top: 5px;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    left:10px;
+}
+
+.about{
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 30px;
+}
+
+.navbar2{
+    float: left;
+    position: absolute;
+    left: 0;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
