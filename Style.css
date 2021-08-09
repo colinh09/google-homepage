@@ -1,0 +1,41 @@
+.search_wrapper{
+    width: 400px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+input,
+button{
+    border:0;
+    background-color: transparent;
+}
+
+
+.fa fa-search{
+    position: absolute;
+    bottom: 0;
+    float: left;
+    width: 5%;
+    font-size: 17px;
+    border-left: none;
+    cursor: pointer;
+}
+
+.input{
+    font-size: 17px;
+    width: 87%;
+    background-color: white;
+}
+
+.microphone{
+    position: absolute;
+    left: 0;
+    border-right:none;
+    font-size: 17px;
+    float: right;
+    width: 5%;
+    background-color: white;
+    color: white;
+    cursor: pointer;
+}
