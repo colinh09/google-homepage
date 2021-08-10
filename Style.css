@@ -177,7 +177,7 @@ button{
     top: 25px;
     font-size: 13px;
     float: left;
-    left: 5vw;
+    left: 30px;
 }
 
 .Business{
@@ -185,7 +185,7 @@ button{
     position: absolute;
     top: 25px;
     font-size: 13px;
-    left: 15vw;
+    left: 140px;
 }
 
 .Search{
@@ -193,7 +193,7 @@ button{
     position: absolute;
     top: 25px;
     font-size: 13px;
-    left: 24vw;
+    left: 235px;
 }
 
 .Privacy{
@@ -201,21 +201,21 @@ button{
     position: absolute;
     top: 25px;
     font-size: 13px;
-    left: 75vw;
+    right: 30px
 }
 
 .Terms{
     position: absolute;
     top: 25px;
     font-size: 13px;
-    left: 83vw;
+    right: 120px;
 }
 
 .Settings{
     position: absolute;
     top: 25px;
     font-size: 13px;
-    left: 90vw;
+    right: 200px;
 }
 
 
