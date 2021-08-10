@@ -95,7 +95,7 @@ button{
 
 .navbar{
     float: right;
-    position: relative;
+    position: absolute;
     right: 0;
     display: flex;
     list-style-type: none;
@@ -103,65 +103,132 @@ button{
     padding: 0;
 }
 
-li{
-    height: 0px;
-    width: 0px;
-    padding-right: 100px;
-    padding-top: 20px;
-}
-
 .Apps{
+    height: 25px;
+    width: 25px;
     position: relative;
-    width: 30px;
-    height: 30px;
-    left: 90px;
+    right: 15px;
+    top: 3px
 }
 
 .Account{
     position: relative;
-    padding: 0;
     border-radius: 50%;
-    left: 50px;
+    left: 00px;
 }
 
 .img{
     position: relative;
     top: 5px;
-    left: 200px;
-    font-size: 15px;
+    font-size: 13px;
+
 }
 
 .gmail{
+    width: 0px;
+    height: 0px;
     position: relative;
     top: 5px;
-    left: 20px;
-    font-size: 15px;
-}
-
-.store{
-    float: left;
-    position: relative;
-    top: 5px;
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    left:10px;
-}
-
-.about{
-    float: left;
-    position: relative;
-    top: 5px;
-    left: 30px;
+    right: 100px;
+    font-size: 13px;
 }
 
 .navbar2{
     float: left;
-    position: absolute;
+    position: relative;
     left: 0;
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
+.store{
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 50px;
+    font-size: 13px;
+}
+
+.about{
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    font-size: 13px;
+}
+
+.navbar3{
+    width: 50vw;
+    height: 5%;
+    background: rgb(226, 225, 225);
+    position: absolute;
+    bottom: 0;
+    float: left;
+    left: 0;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Advertising{
+    float: left;
+    position: relative;
+    top: 25px;
+    font-size: 13px;
+    left: 50px;
+}
+
+.Business{
+    float: left;
+    position: relative;
+    top: 25px;
+    font-size: 13px;
+    left: 90px;
+}
+
+.Search{
+    float: left;
+    position: relative;
+    top: 25px;
+    font-size: 13px;
+    left: 130px;
+}
+
+.navbar4{
+    width: 50vw;
+    height: 5%;
+    background: rgb(226, 225, 225);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Privacy{
+    float:right;
+    position: relative;
+    top: 25px;
+    font-size: 13px;
+    left: 200px;
+}
+
+.Terms{
+    position: relative;
+    top: 25px;
+    font-size: 13px;
+}
+
+.Settings{
+    position: relative;
+    top: 25px;
+    font-size: 13px;
+    left: 400px;
+}
+
+
